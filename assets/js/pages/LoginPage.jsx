@@ -54,7 +54,7 @@ function LoginPage({history}) {
                 <div className="form-group">
                     <button type="submit"
                             className="btn btn-success"
-                    >Je me connecte
+                    >Je me connecte !
                     </button>
                 </div>
             </form>
