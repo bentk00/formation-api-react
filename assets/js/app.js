@@ -31,7 +31,7 @@ const App = () => {
                     <Switch>
                         <Route path="/login" component={LoginPage}/>
                         <PrivateRoute path="/invoices" component={InvoicesPage}/>
-                        <PrivateRoute path="/customers/:id" component={CustomersPage}/>
+                        <PrivateRoute path="/customers/:id" component={CustomerPage}/>
                         <PrivateRoute path="/customers" component={CustomersPage}/>
                         <Route path="/" component={HomePage}/>
                     </Switch>
