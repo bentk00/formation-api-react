@@ -1,6 +1,5 @@
 import axios from 'axios';
 import JwtDecode from "jwt-decode";
-import {LOGIN_API} from "../config";
 
 const setAxiosToken = token => axios.defaults.headers["Authorization"] = "Bearer " + token;
 
@@ -31,7 +30,7 @@ const isAuthenticated = () => {
 
 const authenticate = credentials => {
     return axios
-        .post(LOGIN_API, credentials)
+        .post("https://localhost:8000/api/login_check", credentials)
         .then(response => response.data.token)
         .then(token => {
             window.localStorage.setItem('authToken', token);

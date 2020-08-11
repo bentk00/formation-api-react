@@ -1,14 +1,13 @@
 import axios from 'axios';
-import {INVOICES_API} from "../config";
 
 function findAll(){
     return axios
-        .get(INVOICES_API)
+        .get("https://localhost:8000/api/invoices")
         .then(response => response.data["hydra:member"])
 }
 
 function deleteInvoices(id) {
-    return axios.delete(INVOICES_API + "/" + id)
+    return axios.delete("https://localhost:8000/api/invoices/" + id)
 }
 
 export default {
