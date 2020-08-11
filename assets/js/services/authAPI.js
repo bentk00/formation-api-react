@@ -27,6 +27,7 @@ const isAuthenticated = () => {
         return false;
     }
     return false;
+    logout();
 }
 
 const authenticate = credentials => {
