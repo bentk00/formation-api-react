@@ -1,22 +1,21 @@
 import axios from 'axios';
+import {CUSTOMERS_API} from "../config";
 
-// customers api uri
-const customers_uri = "https://localhost:8000/api/customers";
 
 // get all cutomers
-const findAll = () => axios.get(customers_uri).then(response => response.data["hydra:member"])
+const findAll = () => axios.get(CUSTOMERS_API).then(response => response.data["hydra:member"])
 
 // get one customer by id
-const find = id => axios.get(customers_uri + "/" + id).then(response => response.data)
+const find = id => axios.get(CUSTOMERS_API + "/" + id).then(response => response.data)
 
 // add new customer
-const create = customer => axios.post(customers_uri, customer);
+const create = customer => axios.post(CUSTOMERS_API, customer);
 
 // update customer by id
-const update = (id, customer) => axios.put(customers_uri + ("/" + id), customer);
+const update = (id, customer) => axios.put(CUSTOMERS_API + ("/" + id), customer);
 
 // delete customer by id
-const deleteCustomer = id => axios.delete( customers_uri + "/" + id);
+const deleteCustomer = id => axios.delete( CUSTOMERS_API + "/" + id);
 
 
 export default {

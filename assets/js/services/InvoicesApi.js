@@ -2,12 +2,12 @@ import axios from 'axios';
 
 function findAll(){
     return axios
-        .get("https://localhost:8000/api/invoices")
+        .get(INVOICES_API)
         .then(response => response.data["hydra:member"])
 }
 
 function deleteInvoices(id) {
-    return axios.delete("https://localhost:8000/api/invoices/" + id)
+    return axios.delete(INVOICES_API + "/" +  id)
 }
 
 export default {

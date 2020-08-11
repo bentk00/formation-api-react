@@ -13,9 +13,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="742634ca-702f-4aec-b7f4-944d0883dac9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="742634ca-702f-4aec-b7f4-944d0883dac9" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -164,7 +162,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/js/pages" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/js/components" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -178,11 +176,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\ybenacho\Desktop\benprojects\Symfony\symreactformation\api-course\assets\js\pages" />
-      <recent name="C:\Users\ybenacho\Desktop\benprojects\Symfony\symreactformation\api-course\assets\js" />
       <recent name="C:\Users\ybenacho\Desktop\benprojects\Symfony\symreactformation\api-course\assets\js\components" />
+      <recent name="C:\Users\ybenacho\Desktop\benprojects\Symfony\symreactformation\api-course\assets\js\pages" />
+      <recent name="C:\Users\ybenacho\Desktop\benprojects\Symfony\symreactformation\api-course\assets\js\services" />
+      <recent name="C:\Users\ybenacho\Desktop\benprojects\Symfony\symreactformation\api-course\assets\js" />
       <recent name="C:\Users\ybenacho\Desktop\benprojects\Symfony\symreactformation\api-course\src" />
-      <recent name="C:\Users\ybenacho\Desktop\benprojects\Symfony\symreactformation\api-course\src\Serializer" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -201,7 +199,7 @@
       <workItem from="1596973145576" duration="44141000" />
       <workItem from="1597024802127" duration="31316000" />
       <workItem from="1597145653012" duration="4507000" />
-      <workItem from="1597151278431" duration="9909000" />
+      <workItem from="1597151278431" duration="10205000" />
     </task>
     <servers />
   </component>
