@@ -10,8 +10,10 @@ const setup = () => {
         if (expiration * 1000 > new Date().getTime()) {
             // On prévient Axios qu'on maintenant un header par défaut sur toutes nos requetes HTTP
             setAxiosToken(token);
+            return ;
         }
     }
+    logout();
 }
 
 const isAuthenticated = () => {

@@ -2,6 +2,8 @@ import React, {useEffect, useState} from 'react';
 import Pagination from "../components/Pagination";
 
 import CustomersApi from "../services/CustomersApi";
+import {Link} from "react-router-dom";
+import TableLoader from "../components/loaders/TableLoader";
 
 function CustomersPage(props) {
 
@@ -45,7 +47,7 @@ function CustomersPage(props) {
         }
     }
 
-    const handlePageChange = page =>  setCurrentPage(page);
+    const handlePageChange = page => setCurrentPage(page);
 
 
     const handleSearch = event => {
@@ -55,11 +57,16 @@ function CustomersPage(props) {
 
     return (
         <>
-            <h1>Liste des clients</h1>
+            <div className="d-flex justify-content-between align-items-center">
+                <h1>Liste des clients</h1>
+                <Link className="btn btn-light mb-3" to="/customers/new">Créer un client</Link>
+            </div>
             <div className="form-group">
                 <input type="text" onChange={handleSearch} value={search}
                        className="form-control" placeholder="Rechercher..."/>
             </div>
+            {loading && <TableLoader/>}
+            {!loading &&
             <table className="table table-hover">
                 <thead>
                 <tr>
@@ -74,13 +81,7 @@ function CustomersPage(props) {
 
                 </thead>
                 <tbody>
-                {loading &&
-                <tr>
-                    <td>Chargement...</td>
-                </tr>
-                }
-                {!loading &&
-                paginatedCustomers.map(
+                {paginatedCustomers.map(
                     customer =>
                         <tr key={customer.id}>
                             <td>{customer.id}</td>
@@ -103,6 +104,8 @@ function CustomersPage(props) {
 
                 </tbody>
             </table>
+            }
+
             {itemsPerPage < filteredCustomers.length &&
             <Pagination currentPage={currentPage}
                         itemsPerPages={itemsPerPage}

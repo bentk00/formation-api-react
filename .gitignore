@@ -1,4 +1,4 @@
-
+.idea
 ###> symfony/framework-bundle ###
 /.env.local
 /.env.local.php
@@ -16,7 +16,7 @@
 ###< symfony/phpunit-bridge ###
 
 ###> lexik/jwt-authentication-bundle ###
-/config/jwt/*.pem
+# /config/jwt/*.pem
 ###< lexik/jwt-authentication-bundle ###
 
 ###> symfony/webpack-encore-bundle ###

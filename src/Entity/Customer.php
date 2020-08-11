@@ -43,33 +43,34 @@ class Customer
 
     /**
      * @ORM\Column(type="string", length=255)
-     * @Assert\NotBlank(message="Veuillez rensignez votre prénom !")
      * @Groups({"customers_read" , "invoices_read"})
      * @Assert\Length(
      *     min ="3",
-     *     minMessage="Le prénom doit faire entre 3 et caractères !",
+     *     minMessage="Le prénom doit faire entre 3 et 255 caractères !",
      *     max="255",
-     *     maxMessage="Le prénom doit faire entre 3 et caractères "
+     *     maxMessage="Le prénom doit faire entre 3 et 255 caractères "
      * )
+     * @Assert\NotBlank(message="Veuillez rensignez le prénom du client !")
      */
     private $firstName;
 
     /**
      * @ORM\Column(type="string", length=255)
-     * @Assert\NotBlank(message="Veuillez rensignez votre prénom !")
      * @Groups({"customers_read", "invoices_read"})
      * @Assert\Length(
      *     min ="3",
-     *     minMessage="Le nom doit faire entre 3 et caractères !",
+     *     minMessage="Le nom doit faire entre 3 et 255 caractères !",
      *     max="255",
-     *     maxMessage="Le nom doit faire entre 3 et caractères !"
+     *     maxMessage="Le nom doit faire entre 3 et 255 caractères !"
      * )
+     * @Assert\NotBlank(message="Veuillez rensignez le nom du client !")
      */
     private $lastName;
 
     /**
      * @ORM\Column(type="string", length=255)
      * @Groups({"customers_read", "invoices_read"})
+     * @Assert\NotBlank(message="Veuillez rensignez l'adresse email du client !")
      */
     private $email;
 
