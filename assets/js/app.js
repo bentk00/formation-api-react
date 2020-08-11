@@ -10,6 +10,7 @@ import PrivateRoute from "./components/PrivateRoute";
 import AuthContext from "./context/AuthContext";
 import LoginPage from "./pages/LoginPage";
 import InvoicesPage from "./pages/InvoicesPage";
+import CustomerPage from "./pages/CustomerPage";
 
 // Need jQuery? Install it with "yarn add jquery", then uncomment to import it.
 // import $ from 'jquery';
