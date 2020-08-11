@@ -1,7 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="742634ca-702f-4aec-b7f4-944d0883dac9" name="Default Changelist" comment="" />
+    <list default="true" id="742634ca-702f-4aec-b7f4-944d0883dac9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/components/Navbar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/components/Pagination.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/components/PrivateRoute.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/context/AuthContext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/pages/CustomersPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/pages/CustomersPageWithPagination.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/pages/HomePage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/pages/InvoicesPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/pages/LoginPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/services/CustomersApi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/services/InvoicesApi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/js/services/authAPI.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/assets.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/prod/webpack_encore.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/test/webpack_encore.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/packages/webpack_encore.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/AppController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/InvoiceCancelController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Doctrine/CurrentUserExtension.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Events/CustomerUserSubcriber.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Events/InvoiceChronoSubscriber.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Events/JwtCreatedSubscriber.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Events/PasswordEncoderSubscriber.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Serializer/PatchedDateTimeNormalizer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/app/index.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/api-course.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/api-course.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Customer.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Customer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Invoice.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Invoice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/InvoiceRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/InvoiceRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +74,9 @@
         <option value="composer.json" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -123,17 +183,30 @@
       <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
       <path value="$PROJECT_DIR$/vendor/doctrine/data-fixtures" />
       <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-fixtures-bundle" />
+      <path value="$PROJECT_DIR$/vendor/willdurand/negotiation" />
+      <path value="$PROJECT_DIR$/vendor/api-platform/core" />
+      <path value="$PROJECT_DIR$/vendor/nelmio/cors-bundle" />
+      <path value="$PROJECT_DIR$/vendor/fig/link-util" />
+      <path value="$PROJECT_DIR$/vendor/namshi/jose" />
+      <path value="$PROJECT_DIR$/vendor/lcobucci/jwt" />
+      <path value="$PROJECT_DIR$/vendor/lexik/jwt-authentication-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/webpack-encore-bundle" />
     </include_path>
   </component>
   <component name="ProjectId" id="1fhBL1ccs6N2lVIEoA4V32nCTZq" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sym_api" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/js" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -141,7 +214,18 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.zend.framework.tool" />
+    <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2020.1.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ybenacho\Desktop\benprojects\Symfony\symreactformation\api-course\assets\js" />
+      <recent name="C:\Users\ybenacho\Desktop\benprojects\Symfony\symreactformation\api-course\assets\js\components" />
+      <recent name="C:\Users\ybenacho\Desktop\benprojects\Symfony\symreactformation\api-course\assets\js\pages" />
+      <recent name="C:\Users\ybenacho\Desktop\benprojects\Symfony\symreactformation\api-course\src" />
+      <recent name="C:\Users\ybenacho\Desktop\benprojects\Symfony\symreactformation\api-course\src\Serializer" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -152,26 +236,95 @@
       <option name="presentableId" value="Default" />
       <updated>1596660385255</updated>
       <workItem from="1596660386392" duration="549000" />
-      <workItem from="1596660965440" duration="5903000" />
+      <workItem from="1596660965440" duration="14390000" />
+      <workItem from="1596860709779" duration="1800000" />
+      <workItem from="1596905111053" duration="2393000" />
+      <workItem from="1596931280459" duration="1512000" />
+      <workItem from="1596973145576" duration="44141000" />
+      <workItem from="1597024802127" duration="31316000" />
+      <workItem from="1597145653012" duration="2297000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="523" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1597030796985">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="523" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1597030796985" />
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1597012243369">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1597012243369" />
+    <state x="498" y="202" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1596989412279">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="498" y="202" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1596989412279" />
+    <state x="561" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1597011454879">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="561" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1597011454879" />
+    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1596996781017">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1596996781017" />
+    <state x="587" y="186" key="#com.jetbrains.php.refactoring.extractMethod.PhpExtractMethodDialog#method0" timestamp="1597012003022">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="587" y="186" key="#com.jetbrains.php.refactoring.extractMethod.PhpExtractMethodDialog#method0/0.0.1536.824@0.0.1536.824" timestamp="1597012003022" />
     <state x="637" y="162" key="EnvironmentVariablesDialog" timestamp="1596666615476">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="637" y="162" key="EnvironmentVariablesDialog/0.0.1536.824@0.0.1536.824" timestamp="1596666615476" />
-    <state x="929" y="170" key="FileChooserDialogImpl" timestamp="1596666688321">
+    <state x="929" y="170" key="FileChooserDialogImpl" timestamp="1596973206589">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="929" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1596666688321" />
-    <state x="277" y="57" key="SettingsEditor" timestamp="1596666718807">
+    <state x="929" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1596973206589" />
+    <state width="1493" height="423" key="GridCell.Tab.0.bottom" timestamp="1597014781828">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1596666718807" />
+    <state width="1493" height="423" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1597014781828" />
+    <state width="1493" height="423" key="GridCell.Tab.0.center" timestamp="1597014781828">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="423" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1597014781828" />
+    <state width="1493" height="423" key="GridCell.Tab.0.left" timestamp="1597014781828">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="423" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1597014781828" />
+    <state width="1493" height="423" key="GridCell.Tab.0.right" timestamp="1597014781828">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="423" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1597014781828" />
+    <state x="426" y="135" key="NewPhpClassDialog" timestamp="1597004024994">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="426" y="135" key="NewPhpClassDialog/0.0.1536.824@0.0.1536.824" timestamp="1597004024994" />
+    <state x="604" y="335" key="NewPhpFileDialog" timestamp="1596996404450">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="604" y="335" key="NewPhpFileDialog/0.0.1536.824@0.0.1536.824" timestamp="1596996404450" />
+    <state x="318" y="83" key="SettingsEditor" timestamp="1597089846650">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="318" y="83" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1597089846650" />
     <state x="538" y="272" key="SymfonyComponentCompositeDataDialog" timestamp="1596666717811">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -180,9 +333,32 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="572" y="314" key="SymfonyPathDialog/0.0.1536.824@0.0.1536.824" timestamp="1596666696901" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1596668412065">
+    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596986247837">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1596668412065" />
+    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1596986247837" />
+    <state x="478" y="145" width="590" height="534" key="find.popup" timestamp="1597075638589">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="478" y="145" width="590" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1597075638589" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1597002859757">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1597002859757" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1597085045729">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1597085045729" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Entity/Invoice.php</url>
+          <line>4</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

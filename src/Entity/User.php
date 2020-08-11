@@ -2,14 +2,23 @@
 
 namespace App\Entity;
 
+use ApiPlatform\Core\Annotation\ApiFilter;
+use ApiPlatform\Core\Annotation\ApiResource;
 use App\Repository\UserRepository;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
 use Symfony\Component\Security\Core\User\UserInterface;
+use Symfony\Component\Serializer\Annotation\Groups;
+use Symfony\Component\Validator\Constraints as Assert; // Symfony's built-in constraints
+use ApiPlatform\Core\Bridge\Doctrine\Orm\Filter\SearchFilter;
 
 /**
  * @ORM\Entity(repositoryClass=UserRepository::class)
+ * @ApiResource()
+ * @ApiFilter(SearchFilter::class, properties={"email", "fristName", "lastName"})
+ * @UniqueEntity("email", message="Un utilisateur ayant cette adresse email exite dèja !")
  */
 class User implements UserInterface
 {
@@ -17,11 +26,13 @@ class User implements UserInterface
      * @ORM\Id()
      * @ORM\GeneratedValue()
      * @ORM\Column(type="integer")
+     * @Groups ({"customers_read","invoices_read", "invoices_subresource"})
      */
     private $id;
 
     /**
      * @ORM\Column(type="string", length=180, unique=true)
+     * @Groups ({"customers_read","invoices_read", "invoices_subresource"})
      */
     private $email;
 
@@ -38,16 +49,33 @@ class User implements UserInterface
 
     /**
      * @ORM\Column(type="string", length=255)
+     * @Groups ({"customers_read","invoices_read", "invoices_subresource"})
+     * @Assert\NotBlank(message="Veuillez rensignez votre prénom !")
+     * @Assert\Length(
+     *     min ="3",
+     *     minMessage="Le prénom doit faire entre 3 et caractères !",
+     *     max="255",
+     *     maxMessage="Le prénom doit faire entre 3 et caractères "
+     * )
      */
     private $firstName;
 
     /**
      * @ORM\Column(type="string", length=255)
+     * @Groups ({"customers_read","invoices_read", "invoices_subresource"})
+     * @Assert\NotBlank(message="Veuillez rensignez votre prénom !")
+     * @Assert\Length(
+     *     min ="3",
+     *     minMessage="Le nom doit faire entre 3 et caractères !",
+     *     max="255",
+     *     maxMessage="Le nom doit faire entre 3 et caractères "
+     * )
      */
     private $lastName;
 
     /**
      * @ORM\OneToMany(targetEntity=Customer::class, mappedBy="user")
+     * @Groups ({"users_read"})
      */
     private $customers;
 
